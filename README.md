@@ -63,4 +63,64 @@ The TCSA model consists of the following components:
 ├── requirement.txt                 # Python dependencies
 ├── LICENSE                         # GPL-3.0 license
 ├── README.md                       # Project documentation
+```
+## 🛠️ How to Install
+
+To get started, clone the repository and set up your environment:
+
+```bash
+git clone https://github.com/arvind207kumar/Time-Cross-Adaptive-Self-Attention-TCSA-based-Imputation-model-.git
+cd Time-Cross-Adaptive-Self-Attention-TCSA-based-Imputation-model-
+## 📦 Install Dependencies
+```
+Install all required Python packages using the provided `requirement.txt` file:
+
+```bash
+pip install -r requirement.txt
+```
+
+## 📁 Prepare the Dataset
+
+To prepare your dataset:
+
+- Use scripts in the `dataset_creation_script/` folder to generate or format time series data.
+- Place the processed dataset files into the `DataSet_file/` directory.
+- You can use synthetic data or real-world datasets depending on your use case.
+
+---
+
+## 🚀 Train and Evaluate the Model
+
+To train and evaluate the TCSA model:
+
+- Open and run `random.ipynb` for exploratory training and visualization.
+- Use `test.ipynb` for structured evaluation and performance metrics.
+- Modify `config.py` to adjust hyperparameters like:
+
+  - Learning rate  
+  - Batch size  
+  - Number of epochs
+
+---
+
+## 📊 Results
+
+The TCSA model demonstrates strong performance across multiple benchmarks:
+
+- ✅ **Imputation Accuracy**: High fidelity reconstruction of missing values across multiple datasets
+- 🔍 **Robustness**: Handles varying levels of sparsity and irregularity
+- 📈 **Visualization**: Clear plots showing original vs imputed sequences
+- 🧪 **Generalization**: Performs well across synthetic and real-world time series
+
+---
+
+## 🔮 Future Work
+
+Planned enhancements and extensions include:
+
+- 📦 **Model Export**: Convert to TorchScript or ONNX for deployment
+- 🧠 **Multivariate Forecasting**: Extend TCSA for predictive modeling
+- 🧪 **Benchmarking**: Compare against state-of-the-art imputation baselines
+- 🌍 **Domain Adaptation**: Apply to healthcare, finance, and IoT datasets
+- 📱 **Interactive Dashboard**: Build a Streamlit app for visual imputation
 
