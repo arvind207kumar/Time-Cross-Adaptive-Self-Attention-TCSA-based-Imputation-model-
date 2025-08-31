@@ -71,11 +71,11 @@ To get started, clone the repository and set up your environment:
 ```bash
 git clone https://github.com/arvind207kumar/Time-Cross-Adaptive-Self-Attention-TCSA-based-Imputation-model-.git
 cd Time-Cross-Adaptive-Self-Attention-TCSA-based-Imputation-model-
-## 📦 Install Dependencies
 ```
 Install all required Python packages using the provided `requirement.txt` file:
 
 ```bash
+## 📦 Install Dependencies
 pip install -r requirement.txt
 ```
 
